@@ -24,7 +24,7 @@ const NavTop = () => {
         <Navbar style={navbarStyle}>
               <Container fluid>
               <Nav className="mx-auto">
-                  <Nav.Link className="tabbtn" href="bars"><Badge  bg="warning" text="dark">Bars</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="bars"><Badge bg="warning" text="dark">Bars</Badge></Nav.Link>
                   <Nav.Link className="tabbtn" href="finedining"><Badge  bg="warning" text="dark">Fine Dining</Badge></Nav.Link>
                   <Nav.Link className="tabbtn" href="fastfood"><Badge  bg="warning" text="dark">Quick Food</Badge></Nav.Link>
                   <Nav.Link className="tabbtn" href="hikes"><Badge bg="warning" text="dark">Hikes</Badge></Nav.Link>

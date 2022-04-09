@@ -2,13 +2,6 @@ import {Navbar, Container, Button, Modal, Badge} from "react-bootstrap"
 import { useState } from "react"
 import { GoMarkGithub } from "react-icons/go"
 
-const titleStyle = { 
-    fontFamily: "Times New Roman, Times, Serif",
-    fontSize: 50,
-    color: "white",
-    textDecoration: "none",
-}
-
 const navbarStyle = {
     backgroundColor: "#222",
     color: 'white',
@@ -45,7 +38,7 @@ const handleShow = () => setShow(true);
 return (
 <>
     <div className="fixed-end">
-        <Button onClick={handleShow}>More Info On Site Development</Button>
+        <Button variant="warning" onClick={handleShow}>More Info On Site Development</Button>
     </div>
 
       <Modal show={show} onHide={handleClose}>
@@ -53,7 +46,7 @@ return (
           <Modal.Title>Website Information</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{fontSize:20}}>
-            <Badge bg="dark"><GoMarkGithub/>Github</Badge> github.com/Finnder/MountaineerMingle
+            <Badge bg="dark"><GoMarkGithub/>Github</Badge> <a href="https://github.com/Finnder/MountaineerMingle" style={{fontSize:15}}>https://github.com/Finnder/MountaineerMingle</a>
             <br/>
             <br/>
             This project is an open-source project feel free to contribute

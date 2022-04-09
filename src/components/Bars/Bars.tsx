@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import Bars from '../../data/bars'
 import InfoBlock from '../InfoBlock/InfoBlock'
 
@@ -7,21 +7,18 @@ class BarsInfo extends React.Component {
 
     render(){
         return(
-            <div className="justify-content-center">
-                <Stack direction="horizontal">
-                    <InfoBlock data={Bars[0]} />
-                    <InfoBlock data={Bars[1]} />
-                    <InfoBlock data={Bars[2]} />
-                    <InfoBlock data={Bars[3]} />
-                </Stack>
-            
-                <br/>
 
-                <Stack direction="horizontal">
-                    <InfoBlock data={Bars[4]} />
-                    <InfoBlock data={Bars[5]} />
-                    <InfoBlock data={Bars[6]} />
-                </Stack>
+            <div>
+                <Row xs={1} md={4} lg={4}>
+                    <Col sm><InfoBlock data={Bars[0]} /></Col>
+                    <Col sm><InfoBlock data={Bars[1]} /></Col>
+                    <Col sm><InfoBlock data={Bars[2]} /></Col>
+                    <Col sm><InfoBlock data={Bars[3]} /></Col>
+                </Row>
+                <Row xs={1} md={4} lg={4}>
+                    <Col sm><InfoBlock data={Bars[4]} /></Col>
+                    <Col sm><InfoBlock data={Bars[5]} /></Col>
+                </Row>
 
                 <br/>
                 <br/>

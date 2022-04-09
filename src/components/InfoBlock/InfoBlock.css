@@ -1,8 +1,17 @@
 .InfoBlock { 
     
     color: black;
-    width: 25%;
     padding: 4px;
+    height: 100%;
+}
+
+.InfoBlock .card {
+    height: 100%;
+}
+
+.InfoBlock .card-img-top {
+    object-fit: cover;
+    height: 300px;
 }
 
 .InfoBlock:hover { 
@@ -10,9 +19,6 @@
     border-color: #FFCC00;
     border-style: solid;
     border-width: 2px;
-    
-    padding: 8px;
-
     transition: all 0.1s ease;
 }
 
@@ -22,4 +28,12 @@
     transition: all 0.05s ease;
 }
 
+@media only screen and (max-width: 1000px) {
+    .InfoBlock {
+        width: 100%;
+    }
 
+    .InfoBlock .card-img-top {
+        height: 200px;
+    }
+}

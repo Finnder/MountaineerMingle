@@ -25,7 +25,7 @@ function App() {
             <div className="content" style={{padding: 10, background: "rgb(25, 25, 25)"}}> 
             <Routes>
     
-                <Route path="/home" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/bars" element={<BarsInfo/>}/>
                 <Route path="/finedining" element={<FineDiningInfo/>}/>
                 <Route path="/hikes" element={<HikesInfo/>}/>

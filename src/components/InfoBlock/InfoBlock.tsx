@@ -5,6 +5,7 @@ const InfoBlock = (props: any) => {
 
     return( 
     <div className="InfoBlock">
+        <a href={props.data.url} style={{textDecoration:"none",color: "black"}}>
         <Card className="text-center" border="dark">
         <Card.Img className="InfoImage" variant="top" src={props.data.image} />
         <Card.Body>
@@ -12,8 +13,10 @@ const InfoBlock = (props: any) => {
             <hr/>
             <Card.Text>{props.data.location}</Card.Text>
             <Card.Text>{props.data.phone}</Card.Text>
+            <Card.Text>{props.data.description}</Card.Text>
           </Card.Body>
-        </Card>
+      </Card>
+          </a>
       </div>
     )
 }

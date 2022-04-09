@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import FoodPlaces from '../../data/foodplaces'
 import InfoBlock from '../InfoBlock/InfoBlock'
 
@@ -7,21 +7,17 @@ class FoodInfo extends React.Component {
 
     render(){
         return(
-            <div className="justify-content-center">
-                <Stack direction="horizontal">
-                    <InfoBlock data={FoodPlaces[0]} />
-                    <InfoBlock data={FoodPlaces[1]} />
-                    <InfoBlock data={FoodPlaces[2]} />
-                    <InfoBlock data={FoodPlaces[3]} />
-                </Stack>
-            
-                <br/>
-
-                <Stack direction="horizontal">
-                    <InfoBlock data={FoodPlaces[4]} />
-                    <InfoBlock data={FoodPlaces[5]} />
-                    <InfoBlock data={FoodPlaces[6]} />
-                </Stack>
+            <div>
+                <Row xs={1} md={4} lg={4}>
+                    <Col sm><InfoBlock data={FoodPlaces[0]} /></Col>
+                    <Col sm><InfoBlock data={FoodPlaces[1]} /></Col>
+                    <Col sm><InfoBlock data={FoodPlaces[2]} /></Col>
+                    <Col sm><InfoBlock data={FoodPlaces[3]} /></Col>
+                </Row>
+                <Row xs={1} md={4} lg={4}>
+                    <Col sm><InfoBlock data={FoodPlaces[4]} /></Col>
+                    <Col sm><InfoBlock data={FoodPlaces[5]} /></Col>
+                </Row>
 
                 <br/>
                 <br/>
