@@ -48,3 +48,5 @@ const cafes = [
     image: HigherGround
 },
 ]
+
+export default cafes

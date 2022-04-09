@@ -1,7 +1,7 @@
 import StickBoyCo from '../images/foodplaces/StickBoyCo.png'
 import ComebackShack from '../images/foodplaces/ComebackShack.png'
 import Melanies from '../images/foodplaces/Melanies.png'
-import AppCookiez from '../images/foodplaces/AppCookie.png'
+import AppCookie from '../images/foodplaces/AppCookie.png'
 import BooneBagelry from '../images/foodplaces/BooneBagelry.png'
 import WildCraft from '../images/foodplaces/WildCraft.png'
 import InSomCookie from '../images/foodplaces/InSomCookie.png'
@@ -21,7 +21,7 @@ const FoodPlaces = [
         location: "1521 Blowing Rock Rd Boone, NC",
         url:"https://comebackshack.com/",
         phone: "(828) 264-2797",
-        description: "We're not a chain. We're not a franchise. We're Born in Boone, NC, and we're family owned and operated in Boone and the SC Low Country. We do our best to create a fun, safe and rewarding environment where our team members can grow and develop and where we are proud to welcome our guests to Come Back Shack. Our food is so fresh, we don't have freezers.  We serve hand-cut fries from real Idaho potatoes: really hard work for us--really awesome fries for you! Our "regular" burgers aren't so regular. They're made from fresh-never-frozen beef blended by the butcher using chuck, round, and sirloin. Our Local Burger is made from grass-fed beef from a local sustainable family farm, pattied by hand in-house every day. All of our chicken is all-natural, fresh-never-frozen, with no antibiotics. We hand-bread our all-natural chicken tenderloins in breading and marinade we make in-house with no added sugar or MSG. It's mama's recipe! We work hard to use simple ingredients with words you can pronounce. And everyday we make fresh in-house: Come Back Sauce, cole slaw, pickles, ranch dressing, pimento cheese, fried green tomatoes... and more!",
+        description: "We're not a chain. We're not a franchise. We're Born in Boone, NC, and we're family owned and operated in Boone and the SC Low Country. We do our best to create a fun, safe and rewarding environment where our team members can grow and develop and where we are proud to welcome our guests to Come Back Shack. Our food is so fresh, we don't have freezers.  We serve hand-cut fries from real Idaho potatoes: really hard work for us--really awesome fries for you! Our 'regular' burgers aren't so regular. They're made from fresh-never-frozen beef blended by the butcher using chuck, round, and sirloin. Our Local Burger is made from grass-fed beef from a local sustainable family farm, pattied by hand in-house every day. All of our chicken is all-natural, fresh-never-frozen, with no antibiotics. We hand-bread our all-natural chicken tenderloins in breading and marinade we make in-house with no added sugar or MSG. It's mama's recipe! We work hard to use simple ingredients with words you can pronounce. And everyday we make fresh in-house: Come Back Sauce, cole slaw, pickles, ranch dressing, pimento cheese, fried green tomatoes... and more!",
 	    image: ComebackShack
     },
     {

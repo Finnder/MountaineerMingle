@@ -4,6 +4,7 @@ import TheRedOnion from '../images/finedinging/TheRedOnion.png'
 import TheGameKeeper from '../images/finedinging/TheGameKeeper.png'
 import CafeViolette from '../images/finedinging/CafeViolette.png'
 import JoyBistro from '../images/finedinging/JoyBistro.png'
+
 const FineDining = [    
     {
         name: "Sabeing",

@@ -4,10 +4,7 @@ import BooneGreenway from '../images/hikes/BooneGreenway.png'
 import Goshen from '../images/hikes/Goshen.png'
 import RockyKnob from '../images/hikes/RockyKnob.png'
 import Cascades from '../images/hikes/Cascades.png'
-import ElkKnob from '../images/hikes/ElkKnob.png'
-
-
-
+import ElkKnob from '../images/hikes/ElkKob.png'
 
 const Hikes = [
     {
@@ -32,7 +29,7 @@ const Hikes = [
         url:"",
         phone: "",
         description: "he Boone Greenway trail (some may argue it’s more a walk than a trail) is not technically inclined as it is entirely paved with some graveled sections throughout, making it an easy pathway for hikers, walkers, and cyclists alike. It is best for easy, spontaneous strolls within the town of Boone. It is 4 miles long and accessible from multiple different spots across town including Casey Lane, Deerfield Road, Clawson-Barnley Park/ Watauga County Recreation Complex, and Southgate Shopping Complex.",
-	    image: 
+	    image: BooneGreenway
     },
     {
         name: "The Goshen River Trail",
@@ -62,7 +59,7 @@ const Hikes = [
         location: "Traveling north to Boone on US Highway 421, take NC 194 North approximately 4 miles and turn left onto Meat Camp Road. Follow Meat Camp Road 5.5 miles to the Elk Knob-Snake Mountain Gap and turn right into the Park.",
         url:"",
         phone: "",
-        description: "If you enjoy mountain tops, then the summit track to the top of Elk Mountain set in the Elk Knob State Park is for you. Considering that it is one of the tallest mountains found in the NC high country, its slopes are moderately difficult, allowing hikers to really challenge their hiking prowess. It has a steady elevation that features stunning views and beautiful scenery including colorful wildflowers.        ",
+        description: "If you enjoy mountain tops, then the summit track to the top of Elk Mountain set in the Elk Knob State Park is for you. Considering that it is one of the tallest mountains found in the NC high country, its slopes are moderately difficult, allowing hikers to really challenge their hiking prowess. It has a steady elevation that features stunning views and beautiful scenery including colorful wildflowers.",
 	    image: ElkKnob
     },
 ]

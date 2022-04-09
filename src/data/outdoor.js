@@ -4,7 +4,10 @@ import MastGen from '../images/activities/MastGen.png'
 import Spa from '../images/activities/Spa.png'
 import Sporting from '../images/activities/Sporting.png'
 import Hachet from '../images/activities/Hachet.png'
-import Happy from '../images/activities/Happy.png'
+import Happy from '../images/activities/Happy.jpeg'
+import Mys from '../images/activities/Mys.png'
+import Rock from '../images/activities/Rock.png'
+
 const Outdoor = [
     {
         name: "Hawkins Game Room",

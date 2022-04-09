@@ -1,9 +1,8 @@
 .InfoBlock { 
     
     color: black;
-    width: 450px;
-    height: fit-content;
-    padding: 5px;
+    width: 25%;
+    padding: 4px;
 }
 
 .InfoBlock:hover { 

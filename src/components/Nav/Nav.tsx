@@ -1,38 +1,41 @@
+import './Nav.css'
+
+import Boone  from '../../images/BGS/boone.jpeg'
+
 import {Navbar, Nav, Container, Badge} from "react-bootstrap"
 
 const NavTop = () => {
 
     const titleStyle = { 
-        fontFamily: "Times New Roman, Times, Serif",
-        fontSize: 50,
+        fontFamily: "title",
+        fontSize: "calc(20px + 2vw)",
         color: "white",
         textDecoration: "none",
     }
 
     const navbarStyle = {
         backgroundColor: "#222",
-        color: 'white',
-        fontSize: "calc(20px + 0.5vw)",
+        fontSize: "calc(6px + 1vw)",
     }
 
     return (
-        <div className="justify-content-center">
-        <a style={titleStyle} href="home">Mountaineer Mingle</a>
-            <Navbar style={navbarStyle}>
+        <div className="justify-content-center mx-auto">
+        <a style={titleStyle} href="home">⛰ Mountaineer Mingle ⛰</a>
+        <Navbar style={navbarStyle}>
               <Container fluid>
-              <Nav style={navbarStyle}>
-                  <Nav.Link href="bars"><Badge bg="warning" text="dark">Bars</Badge></Nav.Link>
-                  <Nav.Link href="finedining"><Badge bg="warning" text="dark">Fine Dining</Badge></Nav.Link>
-                  <Nav.Link href="foodplaces"><Badge bg="warning" text="dark">Food Places</Badge></Nav.Link>
-                  <Nav.Link href="gyms"><Badge bg="warning" text="dark">Gyms</Badge></Nav.Link>
-                  <Nav.Link href="hikes"><Badge bg="warning" text="dark">Hikes</Badge></Nav.Link>
-                  <Nav.Link href="outdoor"><Badge bg="warning" text="dark">Outdoor</Badge></Nav.Link>
-                  <Nav.Link href="restaurants"><Badge bg="warning" text="dark">Restaurants</Badge></Nav.Link>
+              <Nav className="mx-auto">
+                  <Nav.Link className="tabbtn" href="bars"><Badge  bg="warning" text="dark">Bars</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="finedining"><Badge  bg="warning" text="dark">Fine Dining</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="fastfood"><Badge  bg="warning" text="dark">Quick Food</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="hikes"><Badge bg="warning" text="dark">Hikes</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="outdoor"><Badge bg="warning" text="dark">Activities</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="restaurants"><Badge bg="warning" text="dark">Restaurants</Badge></Nav.Link>
+                  <Nav.Link className="tabbtn" href="cafes"><Badge bg="warning" text="dark">Cafes</Badge></Nav.Link>
                </Nav>
             </Container>
         </Navbar>
     </div>
-    )
+   )
 }
 
 export default NavTop

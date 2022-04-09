@@ -1,26 +1,24 @@
 import React from 'react'
 import { Stack } from 'react-bootstrap'
-import Bars from '../../data/bars'
+import cafes from '../../data/cafes'
 import InfoBlock from '../InfoBlock/InfoBlock'
 
-class BarsInfo extends React.Component {
+class CafeInfo extends React.Component {
 
     render(){
         return(
             <div className="justify-content-center">
                 <Stack direction="horizontal">
-                    <InfoBlock data={Bars[0]} />
-                    <InfoBlock data={Bars[1]} />
-                    <InfoBlock data={Bars[2]} />
-                    <InfoBlock data={Bars[3]} />
+                    <InfoBlock data={cafes[0]} />
+                    <InfoBlock data={cafes[1]} />
+                    <InfoBlock data={cafes[2]} />
+                    <InfoBlock data={cafes[3]} />
                 </Stack>
             
                 <br/>
 
                 <Stack direction="horizontal">
-                    <InfoBlock data={Bars[4]} />
-                    <InfoBlock data={Bars[5]} />
-                    <InfoBlock data={Bars[6]} />
+                    <InfoBlock data={cafes[4]} />
                 </Stack>
 
                 <br/>
@@ -31,4 +29,4 @@ class BarsInfo extends React.Component {
     }
 }
 
-export default BarsInfo 
+export default CafeInfo
