@@ -10,7 +10,6 @@ import OutdoorInfo from './components/Outdoor/Outdoor';
 import Home from './components/Home/Home';
 import CafeInfo from './components/Cafe/Cafe'
 
-import {Container, ListGroup} from 'react-bootstrap';
 import NavBottom from './components/Nav/NavBottom';
 import FoodInfo from './components/Food/Food';
 
@@ -24,7 +23,7 @@ function App() {
 
             <div className="content" style={{padding: 10, background: "rgb(25, 25, 25)"}}> 
             <Routes>
-    
+
                 <Route path="/" element={<Home/>}/>
                 <Route path="/bars" element={<BarsInfo/>}/>
                 <Route path="/finedining" element={<FineDiningInfo/>}/>

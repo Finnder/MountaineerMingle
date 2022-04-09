@@ -15,14 +15,13 @@ const NavTop = () => {
 
     const navbarStyle = {
         backgroundColor: "#222",
-        fontSize: "calc(6px + 1vw)",
+        fontSize: "calc(15px + 1vw)",
     }
 
     return (
         <div className="justify-content-center mx-auto">
-        <a style={titleStyle} href="home">⛰ Mountaineer Mingle ⛰</a>
+            <a style={titleStyle} href="/">⛰  Mountaineer Mingle ⛰</a>
         <Navbar style={navbarStyle}>
-              <Container fluid>
               <Nav className="mx-auto">
                   <Nav.Link className="tabbtn" href="bars"><Badge bg="warning" text="dark">Bars</Badge></Nav.Link>
                   <Nav.Link className="tabbtn" href="finedining"><Badge  bg="warning" text="dark">Fine Dining</Badge></Nav.Link>
@@ -32,7 +31,6 @@ const NavTop = () => {
                   <Nav.Link className="tabbtn" href="restaurants"><Badge bg="warning" text="dark">Restaurants</Badge></Nav.Link>
                   <Nav.Link className="tabbtn" href="cafes"><Badge bg="warning" text="dark">Cafes</Badge></Nav.Link>
                </Nav>
-            </Container>
         </Navbar>
     </div>
    )

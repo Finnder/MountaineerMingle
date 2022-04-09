@@ -45,12 +45,17 @@ return (
         <Modal.Header closeButton>
           <Modal.Title>Website Information</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{fontSize:20}}>
-            <Badge bg="dark"><GoMarkGithub/>Github</Badge> <a href="https://github.com/Finnder/MountaineerMingle" style={{fontSize:15}}>https://github.com/Finnder/MountaineerMingle</a>
+        <Modal.Body style={{fontSize:20, textAlign:"center"}}>
+            <Badge bg="dark"><GoMarkGithub /> Github</Badge> 
+            <a href="https://github.com/Finnder/MountaineerMingle" style={{fontSize:15}}>https://github.com/Finnder/MountaineerMingle</a>
             <br/>
-            <br/>
-            This project is an open-source project feel free to contribute
-        </Modal.Body>
+             <Badge bg="info">Technologies</Badge>
+             <li><code>React</code></li>
+             <li><code>Bootstrap</code></li>
+             <li><code>NodeJS</code></li>
+             <br/>
+            <code style={{fontSize:12}}>This project is an open-source project feel free to contribute.</code>        
+    </Modal.Body>
       </Modal>
   </>
 
