@@ -1,6 +1,12 @@
 {
   "short_name": "MountaineerMingle",
   "name": "Mountaineer Mingle App",
+  "icon":[
+      {
+          "src":"favicon-32x32.png",
+          "sizes": "any"
+      }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
