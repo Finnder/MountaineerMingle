@@ -1,5 +1,5 @@
-import Sabeing01 from '../images/finedining/Sabeing01.png'
-import Proper from '../images/finedining/Proper.png'
+import Sabeing01 from '../images/finedinging/Sabeing01.png'
+import Proper from '../images/finedinging/Proper.png'
 import TheRedOnion from '../images/finedinging/TheRedOnion.png'
 import TheGameKeeper from '../images/finedinging/TheGameKeeper.png'
 import CafeViolette from '../images/finedinging/CafeViolette.png'

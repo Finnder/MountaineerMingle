@@ -7,7 +7,7 @@ import Troy from '../images/resturants/Troy.png'
 import LostPB from  '../images/resturants/LostPB.png'
 
 const Restaurants = [
-    {
+  {
         name: "Daniel Boone Inn Restaurant",
         location: "130 Hardin Street Boone, NC 28607 ",
         url:"http://www.danlbooneinn.com/",
@@ -62,7 +62,7 @@ const Restaurants = [
         phone: "(828) 265-3506 ",
         description: "A popular brewery and pizzeria in Boone, a town favorite for those who enjoy to watch the process of pizza making and brewery.",
 	    image: LostPB
-    },
+    }
 ]
 
 export default Restaurants
