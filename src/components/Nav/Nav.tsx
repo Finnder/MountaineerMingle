@@ -2,20 +2,21 @@ import {Navbar, Nav, Container} from "react-bootstrap"
 
 const NavTop = () => {
     return (
-            <Navbar className="fixed-top">
+        <div className="">
+        <br/>
+        <h1>Mountaineer Mingle</h1>
+            <Navbar>
               <Container fluid>
-                <Navbar.Brand href="#home">Mountaineer Mingle</Navbar.Brand>
-                <Nav className="me-auto">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#features">Features</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav className="justify-content-center">
+                  <Nav.Item><Nav.Link href="#home">Bars</Nav.Link></Nav.Item>
+                  <Nav.Item><Nav.Link href="#home">Bars</Nav.Link></Nav.Item>
+                  <Nav.Item><Nav.Link href="#home">Bars</Nav.Link></Nav.Item>
+                  <Nav.Item><Nav.Link href="#home">Bars</Nav.Link></Nav.Item>
+                  <Nav.Item><Nav.Link href="#home">Bars</Nav.Link></Nav.Item>
                 </Nav>
             </Container>
         </Navbar>
+    </div>
     )
 }
 
