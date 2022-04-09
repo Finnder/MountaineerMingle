@@ -5,3 +5,5 @@ const FoodPlaces = [
         description: ""
     },
 ]
+
+export default FoodPlaces

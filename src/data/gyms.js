@@ -5,3 +5,5 @@ const Gyms = [
         description: ""
     },
 ]
+
+export default Gyms

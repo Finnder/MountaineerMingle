@@ -5,3 +5,5 @@ const FineDining = [
         description: ""
     },
 ]
+
+export default FineDining

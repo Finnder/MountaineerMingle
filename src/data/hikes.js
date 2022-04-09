@@ -5,3 +5,5 @@ const Hikes = [
         description: ""
     },
 ]
+
+export default Hikes

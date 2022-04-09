@@ -5,3 +5,5 @@ const Outdoor = [
         description: ""
     },
 ]
+
+export default Outdoor

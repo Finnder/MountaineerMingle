@@ -5,3 +5,5 @@ const Restaurants = [
         description: ""
     },
 ]
+
+export default Restaurants
