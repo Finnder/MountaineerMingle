@@ -1,10 +1,10 @@
 import MountainBrewery01 from '../images/bars/mountainbrewery01.png'
 import TheLocal01 from '../images/bars/TheLocal01.png' 
-import TheTAppHouse01 from '../images/bars/TheTAppHouse01'
-import TheBooneSaloon01 from '../images/bars/TheBooneSaloon01'
-import TheRiverStreetAleHouse01 from '../images/bars/TheRiverStreetAleHouse01'
-import Lilys01 from '../images/bars/TheRiverStreetAleHouse01'
-import Ransom from '../images/bars/Ransom'
+import TheTAppHouse01 from '../images/bars/TheTAppHouse01.png'
+import TheBooneSaloon01 from '../images/bars/TheBooneSaloon01.png'
+import TheRiverStreetAleHouse01 from '../images/bars/TheRiverStreetAleHouse01.png'
+import Lilys01 from '../images/bars/TheRiverStreetAleHouse01.png'
+import Ransom from '../images/bars/Ransom.png'
 
 const Bars = [
     {
