@@ -20,7 +20,7 @@ const NavBottom = () => {
         <div className="justify-content-center">
             <Navbar style={navbarStyle} fixed="bottom">
               <Container fluid>
-                 
+                  <h5>Yo</h5> 
               </Container>
         </Navbar>
 

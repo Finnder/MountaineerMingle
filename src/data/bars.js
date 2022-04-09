@@ -1,9 +1,13 @@
+import MountainBrewery01 from '../images/bars/mountainbrewery01.png'
+
+
 const Bars = [
     {
-        name: "",
-        location: "bar numba 1 matha faka",
-        phone: 0,
-        description: "description"
+        name: "Appalachian Mountain Brewery",
+        location: "The Local, 179 Howard St, Boone, NC 28607",
+        phone: "828-266-2179",
+        description: "description",
+        image: MountainBrewery01
     },
 ]
 

@@ -1,0 +1,15 @@
+.InfoBlock { 
+    
+    color: black;
+    width: fit-content;
+
+}
+
+.InfoBlock:hover { 
+    
+    border-radius: 2px;
+    border-color: #FFCC00;
+    border-style: solid;
+    border-width: 2px;
+
+}
