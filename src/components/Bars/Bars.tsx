@@ -1,8 +1,13 @@
+import React from 'react'
+
 import Bars from '../../data/bars'
 import InfoBlock from '../InfoBlock/InfoBlock'
 
-const BarsInfo = () => {
-    return Bars.map((info: any) => <InfoBlock />)  
+class BarsInfo extends React.Component {
+
+    render(){
+        return Bars.map((info: any) => <InfoBlock data={info} />)  
+    }
 }
 
-export default BarsInfo
+export default BarsInfo 

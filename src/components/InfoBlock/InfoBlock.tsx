@@ -8,11 +8,11 @@ const InfoBlock = (props: any) => {
     }
 
     return( 
-     <div>
+    <div>
          <Card style={infostyle} border="dark">
           <Card.Body>
-            <Card.Title>{}</Card.Title>
-            <Card.Text>{}</Card.Text>
+            <Card.Title>{props.data.title}</Card.Title>
+            <Card.Text>{props.data.description}</Card.Text>
           </Card.Body>
         </Card>
       </div>

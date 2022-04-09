@@ -1,8 +1,13 @@
- import FineDining from '../../data/finedining'
+import React from 'react'
+
+import FineDining from '../../data/finedining'
 import InfoBlock from '../InfoBlock/InfoBlock'
 
-const FineDinings = () => {
-    return FineDining.map((info: any) => <InfoBlock />)  
+class FineDiningInfo extends React.Component {
+
+    render(){
+        return FineDining.map((info: any) => <InfoBlock data={info} />)  
+    }
 }
 
-export default FineDinings
+export default FineDiningInfo

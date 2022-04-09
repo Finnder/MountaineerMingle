@@ -1,33 +1,42 @@
 import './App.css';
 import InfoBlock from './components/InfoBlock/InfoBlock';
 import NavTop from './components/Nav/Nav'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
-import Bars from './components/Bars/Bars';
-import FineDinings from './components/FineDining/FineDining';
+import BarsInfo from './components/Bars/Bars';
+import FineDiningInfo from './components/FineDining/FineDining';
+import HikesInfo from './components/Hikes/Hikes';
+import RestaurantsInfo from './components/Restaurants/Restaurants';
+import GymsInfo from './components/Gyms/Gyms'
+import OutdoorInfo from './components/Outdoor/Outdoor';
+import Home from './components/Home/Home';
+
+import {Container, ListGroup} from 'react-bootstrap';
+import NavBottom from './components/Nav/NavBottom';
 
 function App() {
   return (
-    <div className="App">
 
-        <NavTop/>
-        <InfoBlock/>
+    <Router>
+        <div className="App">
 
-        <BrowserRouter>
+            <NavTop/>
             <Routes>
-                <Route path="/">
-                    <Route index element={<Bars/>} />
-                    <Route path="finedining" element={<FineDinings/>} />
-                    <Route path="foodplaces" element={<Foodplaces/>} />
-                    <Route path="gyms" element={<Gyms/>} />
-                    <Route path="hikes" element={<Hikes/>} />
-                    <Route path="outdoor" element={<Outdoor/>} />
-                    <Route path="restaurants" element={<Restaurants/>} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
 
-    </div>
+                <Route path="/home" element={<Home/>}/>
+                <Route path="/bars" element={<BarsInfo/>}/>
+                <Route path="/finedining" element={<FineDiningInfo/>}/>
+                <Route path="/gyms" element={<GymsInfo/>}/>
+                <Route path="/hikes" element={<HikesInfo/>}/>
+                <Route path="/outdoor" element={<OutdoorInfo/>}/>
+                <Route path="/restaurants" element={<RestaurantsInfo/>}/>
+
+            </Routes>
+
+            <NavBottom/>
+            
+        </div>
+    </Router>
   );
 }
 
