@@ -10,7 +10,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
     {
         name: "",
@@ -18,7 +18,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
     {
         name: "",
@@ -26,7 +26,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
     {
         name: "",
@@ -34,7 +34,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
     {
         name: "",
@@ -42,7 +42,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
     {
         name: "",
@@ -50,7 +50,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+        image: ""
     },
     {
         name: "",
@@ -58,7 +58,7 @@ const Restaurants = [
         url:"",
         phone: "",
         description: "",
-	    image: 
+	    image: ""
     },
 ]
 
