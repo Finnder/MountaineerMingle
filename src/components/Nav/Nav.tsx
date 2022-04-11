@@ -8,7 +8,7 @@ const NavTop = () => {
 
     const titleStyle = { 
         fontFamily: "title",
-        fontSize: "calc(20px + 2vw)",
+        fontSize: "calc(18px + 2vw)",
         color: "white",
         textDecoration: "none",
     }
